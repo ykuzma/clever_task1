@@ -10,4 +10,23 @@ public class Lecturer {
         this.name = name;
         this.listGroup = listGroup;
     }
+
+    public Lecturer() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<List<StudyGroup>> getListGroup() {
+        return listGroup;
+    }
+
+    public void setListGroup(List<List<StudyGroup>> listGroup) {
+        this.listGroup = listGroup;
+    }
 }
